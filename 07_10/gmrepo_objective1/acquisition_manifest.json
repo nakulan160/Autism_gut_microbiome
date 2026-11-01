@@ -1,0 +1,20 @@
+{
+  "created": "2026-10-06 12:29:55",
+  "project": "ASD gut microbiome foundation-model Objective 1",
+  "gmrepo_base": "https://gmrepo.humangut.info",
+  "api_version_target": "GMrepo v3 only",
+  "associated_projects_response_note": "GMrepo v3 may return this endpoint as concatenated Python-dict text; the acquisition parser safely converts those records to dictionaries.",
+  "asd_mesh": "D000067877",
+  "health_mesh": "D006262",
+  "page_size": 100,
+  "asd_run_records_retrieved": 1734,
+  "health_run_records_retrieved": 83824,
+  "union_ASD_Health_projects": 898,
+  "profiles_downloaded": false,
+  "notes": [
+    "Run records are not automatically independent biological samples.",
+    "Biological sample/individual deduplication must occur before model splitting.",
+    "Failed/missing QC records must be audited before final cohort construction.",
+    "Raw FASTQ/SRA data are intentionally not downloaded by this script."
+  ]
+}

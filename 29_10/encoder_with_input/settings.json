@@ -1,0 +1,43 @@
+{
+  "input": "non_asd_qc_pass_reported_required.tsv.gz",
+  "output": "results_10epochs",
+  "device": "cuda",
+  "dtype": "float32",
+  "epochs": 10,
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "mask_fraction": 0.1,
+  "excluded_features": [
+    "Unknown"
+  ],
+  "species_dim": 256,
+  "abundance_dim": 256,
+  "abundance_max": 100,
+  "abundance_bin_width": 1,
+  "layers": 6,
+  "heads": 8,
+  "feedforward": 2048,
+  "dropout": 0.1,
+  "encoder_activation": "relu",
+  "head_dims": [
+    1024,
+    2048
+  ],
+  "head_activation": "relu",
+  "norm_first": false,
+  "layer_norm_eps": 1e-05,
+  "bias": true,
+  "accumulation": 16,
+  "beta1": 0.9,
+  "beta2": 0.98,
+  "adam_eps": 1e-09,
+  "weight_decay": 0.0,
+  "warmup_updates": 4000,
+  "attention_backend": "auto",
+  "training_mask_seed": 42,
+  "training_mask_epoch_stride": 1000003,
+  "validation_mask_seed": 900000049,
+  "log_every_updates": 63,
+  "load_log_every_runs": 5000,
+  "plot_every": 1
+}

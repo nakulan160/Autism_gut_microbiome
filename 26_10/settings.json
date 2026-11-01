@@ -1,0 +1,31 @@
+{
+  "input": "/mnt/data/shyam/nakulan/22_10/Encoder_only/non_asd_qc_pass_reported_required.tsv.gz",
+  "output": "results_modular",
+  "seed": 42,
+  "epochs": 100,
+  "validation_fraction": 0.2,
+  "mask_fraction": 0.1,
+  "species_dim": 256,
+  "abundance_dim": 256,
+  "layers": 6,
+  "heads": 8,
+  "feedforward": 2048,
+  "dropout": 0.1,
+  "head_dims": [
+    1024,
+    2048
+  ],
+  "accumulation": 16,
+  "beta1": 0.9,
+  "beta2": 0.98,
+  "adam_eps": 1e-09,
+  "warmup_updates": 4000,
+  "checkpoint_every": 5,
+  "plot_every": 10,
+  "recovery_every_updates": 250,
+  "gradient_warning": 1000000.0,
+  "attention_backend": "auto",
+  "excluded_features": [
+    "Unknown"
+  ]
+}

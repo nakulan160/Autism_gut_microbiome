@@ -1,0 +1,994 @@
+{
+  "run": [
+    {
+      "project_id": "PRJEB6070",
+      "original_sample_description": "Potential of fecal microbiota for early stage detection of colorectal cancer",
+      "run_id": "ERR479038",
+      "experiment_type": "Metagenomics",
+      "instrument_model": "Illumina",
+      "nr_reads_sequenced": null,
+      "host_age": 59.0,
+      "sex": null,
+      "BMI": 20.0,
+      "country": "France",
+      "longitude": null,
+      "latitude": null,
+      "loaded_uid": 169464,
+      "QCStatus": 1,
+      "QCMessage": "",
+      "Original_Project_description": "Several bacterial species have been implicated in the development of colorectal carcinoma (CRC), but CRC-associated changes of fecal microbiota and their potential for cancer screening remain to be explored. Here we used metagenomic sequencing of fecal samples to identify taxonomic markers that distinguished CRC patients from tumor-free controls in a study population of 156 participants. Accuracy of metagenomic CRC detection was similar to the standard fecal occult blood test (FOBT) and when both approaches were combined, sensitivity improved >45% relative to the FOBT while maintaining its specificity. Accuracy of metagenomic CRC detection did not differ significantly between early and late-stage cancer and could be validated in independent patient and control populations (N=335) from different countries. CRC-associated changes in the fecal microbiome at least partially reflected microbial community composition at the tumor itself, indicating that observed gene pool differences may reveal tumor-related host-microbe interactions. Indeed, we deduced a metabolic shift from fiber degradation in controls to utilization of host carbohydrates and amino acids in CRC patients accompanied by an increase of lipopolysaccharide metabolism. "
+    }
+  ],
+  "phenotypes_exist": true,
+  "phenotypes": [
+    {
+      "disease": "D015179",
+      "term": "Colorectal Neoplasms"
+    }
+  ],
+  "species": [
+    {
+      "ncbi_taxon_id": 816,
+      "taxon_rank_level": "species",
+      "relative_abundance": 32.54893523531943,
+      "scientific_name": "Bacteroides"
+    },
+    {
+      "ncbi_taxon_id": 216851,
+      "taxon_rank_level": "species",
+      "relative_abundance": 5.071908478427456,
+      "scientific_name": "Faecalibacterium"
+    },
+    {
+      "ncbi_taxon_id": 909656,
+      "taxon_rank_level": "species",
+      "relative_abundance": 4.718378584486424,
+      "scientific_name": "Phocaeicola"
+    },
+    {
+      "ncbi_taxon_id": 239759,
+      "taxon_rank_level": "species",
+      "relative_abundance": 4.296348711095387,
+      "scientific_name": "Alistipes"
+    },
+    {
+      "ncbi_taxon_id": 841,
+      "taxon_rank_level": "species",
+      "relative_abundance": 4.024478792656362,
+      "scientific_name": "Roseburia"
+    },
+    {
+      "ncbi_taxon_id": 1263,
+      "taxon_rank_level": "species",
+      "relative_abundance": 2.769329169201249,
+      "scientific_name": "Ruminococcus"
+    },
+    {
+      "ncbi_taxon_id": 1301,
+      "taxon_rank_level": "species",
+      "relative_abundance": 2.714339185698245,
+      "scientific_name": "Streptococcus"
+    },
+    {
+      "ncbi_taxon_id": 1257,
+      "taxon_rank_level": "species",
+      "relative_abundance": 2.513319246004226,
+      "scientific_name": "Peptostreptococcus"
+    },
+    {
+      "ncbi_taxon_id": 1926655,
+      "taxon_rank_level": "species",
+      "relative_abundance": 2.289719313084206,
+      "scientific_name": "Marseilla"
+    },
+    {
+      "ncbi_taxon_id": 29465,
+      "taxon_rank_level": "species",
+      "relative_abundance": 2.076989376903187,
+      "scientific_name": "Veillonella"
+    },
+    {
+      "ncbi_taxon_id": 838,
+      "taxon_rank_level": "species",
+      "relative_abundance": 1.830889450733165,
+      "scientific_name": "Prevotella"
+    },
+    {
+      "ncbi_taxon_id": 1980693,
+      "taxon_rank_level": "species",
+      "relative_abundance": 1.492519552244134,
+      "scientific_name": "Negativibacillus"
+    },
+    {
+      "ncbi_taxon_id": 2316020,
+      "taxon_rank_level": "species",
+      "relative_abundance": 1.33166960049912,
+      "scientific_name": "Mediterraneibacter"
+    },
+    {
+      "ncbi_taxon_id": 375288,
+      "taxon_rank_level": "species",
+      "relative_abundance": 1.260819621754113,
+      "scientific_name": "Parabacteroides"
+    },
+    {
+      "ncbi_taxon_id": 39948,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.9905897028230892,
+      "scientific_name": "Dialister"
+    },
+    {
+      "ncbi_taxon_id": 1573535,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.6732697980190607,
+      "scientific_name": "Holdemanella"
+    },
+    {
+      "ncbi_taxon_id": 40544,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.6165198150440555,
+      "scientific_name": "Sutterella"
+    },
+    {
+      "ncbi_taxon_id": 28050,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.588329823501053,
+      "scientific_name": "Lachnospira"
+    },
+    {
+      "ncbi_taxon_id": 33042,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.5722698283190515,
+      "scientific_name": "Coprococcus"
+    },
+    {
+      "ncbi_taxon_id": 2048137,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.5572998328100501,
+      "scientific_name": "Agathobaculum"
+    },
+    {
+      "ncbi_taxon_id": 2944152,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.477509856747043,
+      "scientific_name": "Wujia"
+    },
+    {
+      "ncbi_taxon_id": 2719313,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.4714598585620424,
+      "scientific_name": "Enterocloster"
+    },
+    {
+      "ncbi_taxon_id": 189330,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.44402986679104,
+      "scientific_name": "Dorea"
+    },
+    {
+      "ncbi_taxon_id": 1905344,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.4152898754130374,
+      "scientific_name": "Ruthenibacterium"
+    },
+    {
+      "ncbi_taxon_id": 1506553,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.3825198852440344,
+      "scientific_name": "Lachnoclostridium"
+    },
+    {
+      "ncbi_taxon_id": 572511,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.3460998961700312,
+      "scientific_name": "Blautia"
+    },
+    {
+      "ncbi_taxon_id": 906,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.3054699083590275,
+      "scientific_name": "Megasphaera"
+    },
+    {
+      "ncbi_taxon_id": 1485,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2794499161650252,
+      "scientific_name": "Clostridium"
+    },
+    {
+      "ncbi_taxon_id": 1730,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2662499201250239,
+      "scientific_name": "Eubacterium"
+    },
+    {
+      "ncbi_taxon_id": 574697,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2621099213670236,
+      "scientific_name": "Butyricimonas"
+    },
+    {
+      "ncbi_taxon_id": 283168,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2563899230830231,
+      "scientific_name": "Odoribacter"
+    },
+    {
+      "ncbi_taxon_id": 265975,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2230799330760201,
+      "scientific_name": "Oribacterium"
+    },
+    {
+      "ncbi_taxon_id": 35832,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2215999335200199,
+      "scientific_name": "Bilophila"
+    },
+    {
+      "ncbi_taxon_id": 207244,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.2101199369640189,
+      "scientific_name": "Anaerostipes"
+    },
+    {
+      "ncbi_taxon_id": 970,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1934099419770174,
+      "scientific_name": "Selenomonas"
+    },
+    {
+      "ncbi_taxon_id": 2815777,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1647099505870148,
+      "scientific_name": "Oliverpabstia"
+    },
+    {
+      "ncbi_taxon_id": 1407607,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1593999521800143,
+      "scientific_name": "Fusicatenibacter"
+    },
+    {
+      "ncbi_taxon_id": 561,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.155599953320014,
+      "scientific_name": "Escherichia"
+    },
+    {
+      "ncbi_taxon_id": 596767,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1396499581050125,
+      "scientific_name": "Hydrogenoanaerobacterium"
+    },
+    {
+      "ncbi_taxon_id": 102106,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1262499621250113,
+      "scientific_name": "Collinsella"
+    },
+    {
+      "ncbi_taxon_id": 2944193,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1187899643630107,
+      "scientific_name": "Simiaoa"
+    },
+    {
+      "ncbi_taxon_id": 1017280,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.1154099653770103,
+      "scientific_name": "Pseudoflavonifractor"
+    },
+    {
+      "ncbi_taxon_id": 397864,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0829999751000074,
+      "scientific_name": "Barnesiella"
+    },
+    {
+      "ncbi_taxon_id": 2005355,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0821699753490074,
+      "scientific_name": "Faecalimonas"
+    },
+    {
+      "ncbi_taxon_id": 459786,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0814299755710073,
+      "scientific_name": "Oscillibacter"
+    },
+    {
+      "ncbi_taxon_id": 946234,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0809599757120072,
+      "scientific_name": "Flavonifractor"
+    },
+    {
+      "ncbi_taxon_id": 1378,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0645399806380058,
+      "scientific_name": "Gemella"
+    },
+    {
+      "ncbi_taxon_id": 2591381,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0638899808330057,
+      "scientific_name": "Dysosmobacter"
+    },
+    {
+      "ncbi_taxon_id": 118747,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.05411998376400481,
+      "scientific_name": "Bulleidia"
+    },
+    {
+      "ncbi_taxon_id": 2005359,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0532799840160048,
+      "scientific_name": "Faecalicatena"
+    },
+    {
+      "ncbi_taxon_id": 1357,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0527899841630047,
+      "scientific_name": "Lactococcus"
+    },
+    {
+      "ncbi_taxon_id": 123375,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0498299850510044,
+      "scientific_name": "Solobacterium"
+    },
+    {
+      "ncbi_taxon_id": 2719231,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0483299855010043,
+      "scientific_name": "Lacrimispora"
+    },
+    {
+      "ncbi_taxon_id": 100883,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0393699881890035,
+      "scientific_name": "Coprobacillus"
+    },
+    {
+      "ncbi_taxon_id": 836,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.03062999081100269,
+      "scientific_name": "Porphyromonas"
+    },
+    {
+      "ncbi_taxon_id": 2892396,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0283199915040025,
+      "scientific_name": "Vescimonas"
+    },
+    {
+      "ncbi_taxon_id": 2767353,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0273299918010024,
+      "scientific_name": "Lancefieldella"
+    },
+    {
+      "ncbi_taxon_id": 117563,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0255899923230023,
+      "scientific_name": "Granulicatella"
+    },
+    {
+      "ncbi_taxon_id": 1506577,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.022629993211002,
+      "scientific_name": "Tyzzerella"
+    },
+    {
+      "ncbi_taxon_id": 2529408,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.022419993274002,
+      "scientific_name": "Schaalia"
+    },
+    {
+      "ncbi_taxon_id": 543311,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0212999936100019,
+      "scientific_name": "Parvimonas"
+    },
+    {
+      "ncbi_taxon_id": 848,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0184349944695016,
+      "scientific_name": "Fusobacterium"
+    },
+    {
+      "ncbi_taxon_id": 1649459,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0161499951550014,
+      "scientific_name": "Hungatella"
+    },
+    {
+      "ncbi_taxon_id": 2815773,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0152899954130013,
+      "scientific_name": "Baileyella"
+    },
+    {
+      "ncbi_taxon_id": 1654,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0135099959470012,
+      "scientific_name": "Actinomyces"
+    },
+    {
+      "ncbi_taxon_id": 84111,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0098799970360008,
+      "scientific_name": "Eggerthella"
+    },
+    {
+      "ncbi_taxon_id": 1432051,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0085599974320007,
+      "scientific_name": "Eisenbergiella"
+    },
+    {
+      "ncbi_taxon_id": 724,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0083199975040007,
+      "scientific_name": "Haemophilus"
+    },
+    {
+      "ncbi_taxon_id": 674963,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0078999976300007,
+      "scientific_name": "Succinatimonas"
+    },
+    {
+      "ncbi_taxon_id": 2944199,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.006549998035000501,
+      "scientific_name": "Zhenpiania"
+    },
+    {
+      "ncbi_taxon_id": 1283313,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.0060399981880005,
+      "scientific_name": "Alloprevotella"
+    },
+    {
+      "ncbi_taxon_id": 1928820,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.000629999811,
+      "scientific_name": "Intestinibacillus"
+    },
+    {
+      "ncbi_taxon_id": 2847314,
+      "taxon_rank_level": "species",
+      "relative_abundance": 0.000359999892,
+      "scientific_name": "Paratractidigestivibacter"
+    },
+    {
+      "relative_abundance": 20.28392391482283,
+      "ncbi_taxon_id": -1,
+      "taxon_rank_level": "species",
+      "scientific_name": "Unknown"
+    }
+  ],
+  "genus": [
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 816,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 32.5489465097893,
+      "scientific_name": "Bacteroides"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 216851,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 5.071911014382203,
+      "scientific_name": "Faecalibacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 909656,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 4.718380943676189,
+      "scientific_name": "Phocaeicola"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 239759,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 4.296360859272172,
+      "scientific_name": "Alistipes"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 841,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 4.024470804894161,
+      "scientific_name": "Roseburia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1263,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 2.769330553866111,
+      "scientific_name": "Ruminococcus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1301,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 2.714330542866108,
+      "scientific_name": "Streptococcus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1257,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 2.513320502664101,
+      "scientific_name": "Peptostreptococcus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1926655,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 2.289720457944092,
+      "scientific_name": "Marseilla"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 29465,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 2.076990415398083,
+      "scientific_name": "Veillonella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 838,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 1.830890366178073,
+      "scientific_name": "Prevotella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1980693,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 1.49252029850406,
+      "scientific_name": "Negativibacillus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2316020,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 1.331670266334053,
+      "scientific_name": "Mediterraneibacter"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 375288,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 1.260820252164051,
+      "scientific_name": "Parabacteroides"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 39948,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.9905901981180396,
+      "scientific_name": "Dialister"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1573535,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.6732701346540271,
+      "scientific_name": "Holdemanella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 40544,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.6165101233020247,
+      "scientific_name": "Sutterella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 28050,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.5883301176660236,
+      "scientific_name": "Lachnospira"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 33042,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.5722701144540229,
+      "scientific_name": "Coprococcus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2048137,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.5573001114600223,
+      "scientific_name": "Agathobaculum"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2944152,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.4775100955020191,
+      "scientific_name": "Wujia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2719313,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.4714600942920189,
+      "scientific_name": "Enterocloster"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 189330,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.4440300888060178,
+      "scientific_name": "Dorea"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1905344,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.4152900830580166,
+      "scientific_name": "Ruthenibacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1506553,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.3825200765040153,
+      "scientific_name": "Lachnoclostridium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 572511,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.3461000692200139,
+      "scientific_name": "Blautia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 906,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.3054700610940122,
+      "scientific_name": "Megasphaera"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1485,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2794400558880112,
+      "scientific_name": "Clostridium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1730,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2662500532500106,
+      "scientific_name": "Eubacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 574697,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2621100524220105,
+      "scientific_name": "Butyricimonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 283168,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2563900512780103,
+      "scientific_name": "Odoribacter"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 265975,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2230800446160089,
+      "scientific_name": "Oribacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 35832,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2216000443200088,
+      "scientific_name": "Bilophila"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 207244,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.2101200420240084,
+      "scientific_name": "Anaerostipes"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 970,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1934100386820077,
+      "scientific_name": "Selenomonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2815777,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1647100329420066,
+      "scientific_name": "Oliverpabstia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1407607,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1594000318800063,
+      "scientific_name": "Fusicatenibacter"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 561,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1556000311200062,
+      "scientific_name": "Escherichia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 596767,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1396500279300055,
+      "scientific_name": "Hydrogenoanaerobacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 102106,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.126250025250005,
+      "scientific_name": "Collinsella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2944193,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1187900237580047,
+      "scientific_name": "Simiaoa"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1017280,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.1154000230800046,
+      "scientific_name": "Pseudoflavonifractor"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 397864,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0830000166000033,
+      "scientific_name": "Barnesiella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2005355,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0821700164340033,
+      "scientific_name": "Faecalimonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 459786,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0814300162860032,
+      "scientific_name": "Oscillibacter"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 946234,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0809600161920032,
+      "scientific_name": "Flavonifractor"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1378,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0645400129080025,
+      "scientific_name": "Gemella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2591381,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0638900127780025,
+      "scientific_name": "Dysosmobacter"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 118747,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.05412001082400211,
+      "scientific_name": "Bulleidia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2005359,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0532800106560021,
+      "scientific_name": "Faecalicatena"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1357,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.05279001055800211,
+      "scientific_name": "Lactococcus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 123375,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0498300099660019,
+      "scientific_name": "Solobacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2719231,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0483300096660019,
+      "scientific_name": "Lacrimispora"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 100883,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0393700078740015,
+      "scientific_name": "Coprobacillus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 836,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0306300061260012,
+      "scientific_name": "Porphyromonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2892396,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0283200056640011,
+      "scientific_name": "Vescimonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2767353,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.027330005466001,
+      "scientific_name": "Lancefieldella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 117563,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.025590005118001,
+      "scientific_name": "Granulicatella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1506577,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0226300045260009,
+      "scientific_name": "Tyzzerella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2529408,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0224200044840008,
+      "scientific_name": "Schaalia"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 543311,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0213000042600008,
+      "scientific_name": "Parvimonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 848,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0184300036860007,
+      "scientific_name": "Fusobacterium"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1649459,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0161500032300006,
+      "scientific_name": "Hungatella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2815773,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0152900030580006,
+      "scientific_name": "Baileyella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1654,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0135100027020005,
+      "scientific_name": "Actinomyces"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 84111,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0098800019760003,
+      "scientific_name": "Eggerthella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1432051,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0085600017120003,
+      "scientific_name": "Eisenbergiella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 724,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0083200016640003,
+      "scientific_name": "Haemophilus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 674963,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0079000015800003,
+      "scientific_name": "Succinatimonas"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2944199,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.006550001310000199,
+      "scientific_name": "Zhenpiania"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1283313,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.0060400012080002,
+      "scientific_name": "Alloprevotella"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 1928820,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.000630000126,
+      "scientific_name": "Intestinibacillus"
+    },
+    {
+      "loaded_uid": 169464,
+      "ncbi_taxon_id": 2847314,
+      "taxon_rank_level": "genus",
+      "relative_abundance": 0.000360000072,
+      "scientific_name": "Paratractidigestivibacter"
+    },
+    {
+      "relative_abundance": 20.28393405678681,
+      "ncbi_taxon_id": -1,
+      "taxon_rank_level": "genus",
+      "scientific_name": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "data_integrity": {
+    "all_retained_cells_compared_to_original": true,
+    "all_retained_abundance_strings_and_blanks_identical": true,
+    "all_run_ids_and_row_order_preserved": true,
+    "unknown_removed": true,
+    "rows": 36382,
+    "feature_columns": 3423,
+    "total_columns": 3424,
+    "populated_cells": 3142645,
+    "dictionary_contiguous_and_matches_header": true,
+    "filtered_file_bytes": 17143921
+  },
+  "default_architecture_execution": {
+    "architecture": "default 6-layer, 8-head, d_model=512, FFN=2048, head=1024/2048",
+    "vocabulary_size": 3423,
+    "parameters": 28554079,
+    "input_run_id": "DRR354746",
+    "visible_entries": 70,
+    "masked_entries": 7,
+    "prediction_shape": [
+      1,
+      3423
+    ],
+    "finite_forward_and_backward": true,
+    "seconds": 0.20053925999854982,
+    "loss_for_execution_check_only": 0.2620076835155487
+  },
+  "unit_tests": {
+    "passed": 7,
+    "failed": 0,
+    "command": "python -m unittest -v test_training.py",
+    "checks": [
+      "exact species-ID matching including unsorted IDs and last output index",
+      "four-target masked MSE divided by four",
+      "reported-zero preservation and mask-based removal",
+      "one-entry samples with CLS-only inputs",
+      "16-sample gradient accumulation including a partial group",
+      "no positional signal and reuse of learned CLS",
+      "exact CPU checkpoint resume, identity guards, and plot scheduling"
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "device": "cpu"
+  },
+  "script_sha256": "8d3d6823fab0ff364ceebc2aa7cdd58f547042cc59b29468f554a64300374c9a",
+  "full_100_epoch_training_run": false,
+  "execution_loss_is_not_a_trained_performance_result": true
+}

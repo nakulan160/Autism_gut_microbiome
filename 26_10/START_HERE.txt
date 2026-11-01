@@ -1,0 +1,14 @@
+1. Keep all project files together. main.py is the single entry point.
+2. Activate your existing autism_gpu_251 environment.
+3. Read README.md. Inspect settings.json; the input points to the existing 22_10 file.
+4. Run: python -m unittest discover -s tests -v
+5. Run synthetic CPU integration check: OMP_NUM_THREADS=1 python tests/integration_cpu.py
+6. Run on GPU: nohup python -u main.py --config settings.json --device cuda > training.log 2>&1 &
+7. Watch: tail -f training.log
+8. Results default to results_modular under your current working directory.
+
+No old checkpoint is loaded automatically. No gradient clipping is applied.
+A maximum absolute accumulated gradient above 1,000,000 stops for diagnosis; this configurable trigger does not alter gradients. See gradient_warning in settings.json.
+Floating-point model computations are float32. Double precision is used only in robust diagnostic norm calculations and bin-ID boundary arithmetic.
+
+Compact layout: dashboard.html is the main analysis file. loss.png is the shareable loss graph. history.json.zlib preserves metrics and plotting-epoch predictions. experiment.json includes settings, vocabulary, split and validation masks. Default 100-epoch run: 26 results files + training.log = 27 files. Failure and replay outputs are additional.

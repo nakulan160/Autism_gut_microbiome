@@ -1,0 +1,16 @@
+GMrepo training code only
+
+Extract these files into your existing 15_10 project folder.
+Your original abundance file must be at:
+metagenomic_totla/non_asd_qc_pass_reported_blank.tsv.gz
+
+Install the PyTorch build appropriate for your GPU, and NumPy/Matplotlib.
+This command requires CUDA to be available to your Python environment:
+
+python3 train_masked_abundance.py --input metagenomic_totla/non_asd_qc_pass_reported_blank.tsv.gz --output-dir metagenomic_totla/transformer_no_unknown --device cuda
+
+The script removes the exact Unknown column, preserves all other reported
+values and blanks, creates the dictionary automatically, and trains all runs.
+No additional data or dictionary download is needed.
+Default: 100 epochs, checkpoints every 5 epochs, three graphs every 10 epochs.
+Change settings.json and pass --config settings.json to use its settings.

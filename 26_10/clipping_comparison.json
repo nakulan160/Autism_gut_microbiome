@@ -1,0 +1,107 @@
+{
+  "torch_version": "2.0.1+cu117",
+  "device": "cpu",
+  "input": "/home/ibab/Downloads/failure_gradients_only.pt",
+  "gradient_tensor_count": 81,
+  "gradient_element_count": 28554079,
+  "all_input_values_finite": true,
+  "largest_absolute_gradient": 4.147369470813861e+20,
+  "largest_gradient_parameter": "embedding.projection.weight",
+  "max_norm": 1.0,
+  "cases": [
+    {
+      "case": "actual_saved_gradients",
+      "description": "Original recorded gradients; values have not been rescaled.",
+      "global_l2_before_float64": 1.788403915974462e+22,
+      "methods": [
+        {
+          "method": "custom_float64_norm",
+          "working_dtype": "torch.float32",
+          "custom_details": {
+            "norm_before": 1.788403915974462e+22,
+            "norm_after": 0.9999999999561189,
+            "scale": 5.591578004654066e-23,
+            "clipped": true
+          },
+          "status": "ok",
+          "all_output_values_finite": true,
+          "norm_after_in_float32": 0.9999999999561189,
+          "within_threshold_allowing_roundoff": true
+        },
+        {
+          "method": "pytorch_float32",
+          "working_dtype": "torch.float32",
+          "status": "error",
+          "error": "The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`"
+        },
+        {
+          "method": "pytorch_float64_reference",
+          "working_dtype": "torch.float64",
+          "returned_norm_before_clipping": 1.788403915974462e+22,
+          "status": "ok",
+          "all_output_values_finite": true,
+          "norm_after_in_float32": 0.9999999999561189,
+          "within_threshold_allowing_roundoff": true,
+          "comparison_with_custom": {
+            "max_absolute_difference": 0.0,
+            "relative_l2_difference": 0.0,
+            "bitwise_equal": true,
+            "allclose_rtol_1e-5_atol_1e-8": true
+          }
+        }
+      ]
+    },
+    {
+      "case": "artificially_rescaled_copy",
+      "description": "Same saved gradient direction, rescaled to a global norm near 10. This is an artificial control.",
+      "global_l2_before_float64": 10.000000000117298,
+      "methods": [
+        {
+          "method": "custom_float64_norm",
+          "working_dtype": "torch.float32",
+          "custom_details": {
+            "norm_before": 10.000000000117298,
+            "norm_after": 0.9999999003980717,
+            "scale": 0.09999998999882803,
+            "clipped": true
+          },
+          "status": "ok",
+          "all_output_values_finite": true,
+          "norm_after_in_float32": 0.9999999003980717,
+          "within_threshold_allowing_roundoff": true
+        },
+        {
+          "method": "pytorch_float32",
+          "working_dtype": "torch.float32",
+          "returned_norm_before_clipping": 9.999940872192383,
+          "status": "invalid_output",
+          "all_output_values_finite": true,
+          "norm_after_in_float32": 1.0000058266399072,
+          "within_threshold_allowing_roundoff": false
+        },
+        {
+          "method": "pytorch_float64_reference",
+          "working_dtype": "torch.float64",
+          "returned_norm_before_clipping": 10.000000000117298,
+          "status": "ok",
+          "all_output_values_finite": true,
+          "norm_after_in_float32": 0.9999999003980717,
+          "within_threshold_allowing_roundoff": true,
+          "comparison_with_custom": {
+            "max_absolute_difference": 0.0,
+            "relative_l2_difference": 0.0,
+            "bitwise_equal": true,
+            "allclose_rtol_1e-5_atol_1e-8": true
+          }
+        }
+      ],
+      "rescaling_factor": 5.5915780046540655e-22
+    }
+  ],
+  "limits": [
+    "This compares clipping arithmetic at one recorded update.",
+    "It does not establish why the original gradient spike happened.",
+    "It does not predict the result of a new 100-epoch training run.",
+    "The float64 built-in case uses copies for comparison only."
+  ]
+}

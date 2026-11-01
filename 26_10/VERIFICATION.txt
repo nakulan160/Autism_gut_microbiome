@@ -1,0 +1,10 @@
+Verified locally with Python 3.12 and PyTorch 2.8.0+cpu.
+PASS: five correctness tests covering half-up abundance bins, exact species-output loss and gradients, reported zero retention, disjoint reproducible split, CLS-only samples and permutation invariance.
+PASS: two-epoch synthetic training/validation and all three plots.
+PASS: resumed epoch model tensors bitwise equal to uninterrupted CPU run.
+PASS: forced finite-gradient diagnostic threshold, failure bundle creation and operation-level replay trace.
+PASS: full configured 512-dimension, six-layer, 3423-output model forward/backward and Adam update; 29,455,455 trainable parameters.
+PASS: injected infinity in Adam second moment detected.
+Not tested here: real GMrepo input file, CUDA/A100 numerical behavior, full 100-epoch training, interruption during filesystem write, cross-platform reproducibility.
+Diagnostic summaries do not preserve every tensor element. Exact fused CUDA internal multiplication is not guaranteed to be exposed.
+Compact output revision: PASS five core tests and synthetic training/validation/resume/failure replay checks after output changes. Two-epoch checkpoint-every-one fixture creates exactly eight result files: six support files plus two checkpoints. Retained metrics include both epochs; retained prediction history and dashboard include both plotting epochs. No metrics.csv, split.json or epoch-specific plot files are generated. For the default schedule, six support files plus twenty checkpoints plus external training.log = 27. Model/training computations unchanged by this output revision.

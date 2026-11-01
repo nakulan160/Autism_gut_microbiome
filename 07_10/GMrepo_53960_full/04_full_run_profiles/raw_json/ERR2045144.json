@@ -1,0 +1,29 @@
+{
+  "run": [
+    {
+      "project_id": "PRJEB21933",
+      "original_sample_description": "Human gut biopsy sample microbiome",
+      "run_id": "ERR2045144",
+      "experiment_type": "Metagenomics",
+      "instrument_model": "Illumina HiSeq 2000",
+      "nr_reads_sequenced": 63260053,
+      "host_age": null,
+      "sex": null,
+      "BMI": null,
+      "country": "Canada",
+      "longitude": null,
+      "latitude": null,
+      "loaded_uid": 77570,
+      "QCStatus": 0,
+      "QCMessage": "a single taxon accounts for 100 percent of abundance, which is too much!!",
+      "Original_Project_description": "Crohn’s disease (CD) has an unclear etiology, but there is growing evidence of a direct link with a dysbiotic microbiome. Many gut microbes have previously been associated with CD, but these have mainly been confounded with patients’ ongoing treatments. Additionally, most analyses of CD patients’ microbiomes have focused on microbes in stool samples, which yield different insights than profiling biopsy samples. We sequenced the 16S rRNA gene (16S) and carried out shotgun metagenomics (MGS) from the intestinal biopsies of 20 treatment-naïve CD and 20 control pediatric patients. We identified the abundances of microbial taxa and inferred functional categories within each dataset. We also identified known human genetic variants from the MGS data. We then used a machine learning approach to determine the classification accuracy when these datasets, collapsed to different hierarchical groupings, were used independently to classify patients by disease state and by CD patients’ response to treatment. We found that only 16S-identified microbes could classify patients by disease state, but that both sequencing technologies could classify patients by treatment response. Based on follow-ups with these patients we identified which microbes were best for predicting disease state and response to treatment, including several previously identified markers. By combining the top features from all significant models into a single model, we could compare the relative importance of these predictive features. We validated these top features with an independent cohort to demonstrate that they are general predictors of CD state. We demonstrate for the first time that useful predictors of CD treatment response can be produced from shotgun MGS sequencing of biopsy samples despite the complications related to large proportions of host DNA. The top predictive features that we identified in this study could be useful for building an improved classifier for CD and treatment response based on sufferers’ microbiome in the future."
+    }
+  ],
+  "phenotypes_exist": true,
+  "phenotypes": [
+    {
+      "disease": "D003424",
+      "term": "Crohn Disease"
+    }
+  ]
+}
